@@ -1,0 +1,54 @@
+.container_all_bm {
+  display: flex;
+  padding: 2rem;
+  gap:1.2rem;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  background-image: url("../assets/bg_image-bm.png");
+  .container_bm {
+    display: flex;
+    flex-direction: column;
+    width: 12rem;
+    height: 70%;
+    box-shadow: 0 0 10px gray;
+    padding: 5rem;
+    text-align: center;
+    justify-content: space-between;
+    transition: all .5s;
+    background-color: white;
+
+    &:hover {
+      scale: 1.05;
+    }
+
+    .icon_bm {
+      border-bottom: 1px solid gray;
+
+      #icon_infinite {
+        font-size: 5rem;
+      }
+    }
+
+    .bm_description {
+      .sub_text {
+        color: gray;
+      }
+    }
+
+    .btn_submit {
+      padding: .75rem 1rem;
+      background-color: blue;
+      color: white;
+      border: none;
+      border-radius: 1rem;
+      cursor: pointer;
+      transition: all 1s;
+
+      &:hover {
+        background-color: lightblue;
+        color: blue;
+      }
+    }
+  }
+}

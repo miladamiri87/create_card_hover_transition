@@ -1,0 +1,46 @@
+.container_all_bm {
+  display: flex;
+  padding: 2rem;
+  gap: 1.2rem;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  background-image: url("../assets/bg_image-bm.png");
+}
+.container_all_bm .container_bm {
+  display: flex;
+  flex-direction: column;
+  width: 12rem;
+  height: 70%;
+  box-shadow: 0 0 10px gray;
+  padding: 5rem;
+  text-align: center;
+  justify-content: space-between;
+  transition: all 0.5s;
+  background-color: white;
+}
+.container_all_bm .container_bm:hover {
+  scale: 1.05;
+}
+.container_all_bm .container_bm .icon_bm {
+  border-bottom: 1px solid gray;
+}
+.container_all_bm .container_bm .icon_bm #icon_infinite {
+  font-size: 5rem;
+}
+.container_all_bm .container_bm .bm_description .sub_text {
+  color: gray;
+}
+.container_all_bm .container_bm .btn_submit {
+  padding: 0.75rem 1rem;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 1s;
+}
+.container_all_bm .container_bm .btn_submit:hover {
+  background-color: lightblue;
+  color: blue;
+}/*# sourceMappingURL=bm_style.css.map */
